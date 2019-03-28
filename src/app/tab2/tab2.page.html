@@ -11,7 +11,17 @@
     <!-- Additional required wrapper -->
     <div class="swiper-wrapper">
       <!-- Slides -->
-      <div class="swiper-slide">Slide 1
+      <div class="swiper-slide" *ngFor="let article of data?.articles">
+        <!-- <ion-slide> -->
+        <ion-card-content>
+          <ion-img [src]="article.urlToImage"></ion-img>
+          <ion-card-title>{{article.title}}</ion-card-title>
+          <p>{{article.content}}</p>
+        </ion-card-content>
+        <!-- </ion-slide> -->
+      </div>
+
+      <!-- <div class="swiper-slide">Slide 1
         asfdsaf<br />
         <h1>rrr</h1>
         <p>fff</p>
@@ -26,7 +36,7 @@
         ppp<br />
         <h1>www</h1>
         <p>zzz</p>
-      </div>
+      </div> -->
     </div>
   </div>
 </ion-content>
