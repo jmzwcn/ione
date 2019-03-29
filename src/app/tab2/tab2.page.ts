@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { environment } from '../../environments/environment';
 
@@ -12,12 +12,16 @@ const API_KEY = environment.apiKey;
   templateUrl: 'tab2.page.html',
   styleUrls: ['tab2.page.scss']
 })
-export class Tab2Page {
+export class Tab2Page implements OnInit {
   data: any;
   category = 'general';
 
   constructor(private http: HttpClient) {
-    this.load()
+    //this.load()
+  }
+
+  ngOnInit() {
+    this.load();
   }
 
   load() {

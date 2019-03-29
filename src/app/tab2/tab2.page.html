@@ -1,7 +1,12 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-button>
+        <ion-icon name="planet"></ion-icon>
+      </ion-button>
+    </ion-buttons>
     <ion-title>
-      Tab Two
+      Headline News
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -15,28 +20,11 @@
         <!-- <ion-slide> -->
         <ion-card-content>
           <ion-img [src]="article.urlToImage"></ion-img>
-          <ion-card-title>{{article.title}}</ion-card-title>
+          <ion-card-title>{{article.title}}</ion-card-title><br />
           <p>{{article.content}}</p>
         </ion-card-content>
         <!-- </ion-slide> -->
       </div>
-
-      <!-- <div class="swiper-slide">Slide 1
-        asfdsaf<br />
-        <h1>rrr</h1>
-        <p>fff</p>
-      </div>
-      <div class="swiper-slide">Slide 2
-        asfdsaf<br />
-        <h1>dddd</h1>
-        <p>dddd</p>
-        <img src="http://mat1.gtimg.com/pingjs/ext2020/qqindex2018/dist/img/qq_logo_2x.png">
-      </div>
-      <div class="swiper-slide">Slide 3
-        ppp<br />
-        <h1>www</h1>
-        <p>zzz</p>
-      </div> -->
     </div>
   </div>
 </ion-content>
