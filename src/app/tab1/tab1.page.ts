@@ -1,3 +1,4 @@
+import { Geolocation } from '@ionic-native/geolocation/ngx';
 import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 
 declare var AMap;
@@ -10,6 +11,8 @@ declare var AMap;
 export class Tab1Page implements OnInit {
   @ViewChild('map_container') map_container: ElementRef;
   map: any; // 地图对象
+
+  constructor(private geolocation: Geolocation) { }
 
   ngOnInit() {
     this.map = new AMap.Map(this.map_container.nativeElement, {
@@ -32,7 +35,7 @@ export class Tab1Page implements OnInit {
       this.map.addControl(new AMap.ToolBar({
         liteStyle: true,
         offset: new AMap.Pixel(0, 200),
-        locate: true,
+        locate: false,
         autoPosition: true,
       }))
     });
