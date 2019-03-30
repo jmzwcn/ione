@@ -9,7 +9,7 @@ INJECTED from /home/daniel/ione/client/platforms/android/app/src/main/AndroidMan
 INJECTED from /home/daniel/ione/client/platforms/android/app/src/main/AndroidManifest.xml:2:1-17:12
 INJECTED from /home/daniel/ione/client/platforms/android/app/src/main/AndroidManifest.xml:2:1-17:12
 	package
-		ADDED from /home/daniel/ione/client/platforms/android/app/src/main/AndroidManifest.xml:2:98-124
+		ADDED from /home/daniel/ione/client/platforms/android/app/src/main/AndroidManifest.xml:2:98-121
 		INJECTED from /home/daniel/ione/client/platforms/android/app/src/main/AndroidManifest.xml
 		INJECTED from /home/daniel/ione/client/platforms/android/app/src/main/AndroidManifest.xml
 	android:versionName
@@ -19,7 +19,7 @@ INJECTED from /home/daniel/ione/client/platforms/android/app/src/main/AndroidMan
 	android:hardwareAccelerated
 		ADDED from /home/daniel/ione/client/platforms/android/app/src/main/AndroidManifest.xml:2:11-45
 	xmlns:android
-		ADDED from /home/daniel/ione/client/platforms/android/app/src/main/AndroidManifest.xml:2:125-183
+		ADDED from /home/daniel/ione/client/platforms/android/app/src/main/AndroidManifest.xml:2:122-180
 	android:versionCode
 		ADDED from /home/daniel/ione/client/platforms/android/app/src/main/AndroidManifest.xml:2:46-69
 		INJECTED from /home/daniel/ione/client/platforms/android/app/src/main/AndroidManifest.xml
@@ -52,7 +52,7 @@ ADDED from /home/daniel/ione/client/platforms/android/app/src/main/AndroidManife
 		ADDED from /home/daniel/ione/client/platforms/android/app/src/main/AndroidManifest.xml:5:18-52
 	android:icon
 		ADDED from /home/daniel/ione/client/platforms/android/app/src/main/AndroidManifest.xml:5:53-80
-activity#io.ionic.starter.MainActivity
+activity#io.ionic.ione.MainActivity
 ADDED from /home/daniel/ione/client/platforms/android/app/src/main/AndroidManifest.xml:6:9-11:20
 	android:label
 		ADDED from /home/daniel/ione/client/platforms/android/app/src/main/AndroidManifest.xml:6:97-134

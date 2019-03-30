@@ -19,7 +19,7 @@ export class Tab1Page implements OnInit {
       //resizeEnable: true,
       //rotateEnable: true,
       //pitchEnable: true,
-      zoom: 11,
+      //zoom: 11,
       //pitch: 80,
       //rotation: -15,
       viewMode: '2D',//开启3D视图,默认为关闭
